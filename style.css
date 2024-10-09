@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+} 
+.div{
+   padding-top: 10%;
+   padding-left: 40%;
+   height: 50vh;
+}
+.div img{
+    width: 5%;
+    height: 50vh;
+    filter: saturate(0%);
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid whitesmoke;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.div img:hover{
+    filter: saturate(100%);
+    width: 25%;
+}
+footer{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .4rem;
+    padding-left: 56%;
+}
